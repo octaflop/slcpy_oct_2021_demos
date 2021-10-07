@@ -7,6 +7,12 @@
 2. In the terminal run `. .venv/bin/activate`
 3. `pip install -r requirements.txt`
 
+### Docker (run the server)
+
+0. Install Docker
+1. docker build -t oct_demo .
+2. docker run -p 5000:5000 oct_demo
+
 ## Agenda
 
 ### Beginner
@@ -31,3 +37,5 @@
 # More Information
 
 - Git: https://learngitbranching.js.org/
+
+
