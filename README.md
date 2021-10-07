@@ -18,7 +18,6 @@
 
 ### Intermediate
 
-- Pillow + Jupyter
 - Flask + Pillow
 - Docker?
 
