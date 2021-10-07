@@ -26,3 +26,9 @@
 
 - Docker + Python 3.10
   - Python 3.10 explorations
+
+
+
+# More Information
+
+- Git: https://learngitbranching.js.org/

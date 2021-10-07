@@ -1,10 +1,10 @@
-from flask import Flask
+from flask import Flask, request
 
 app = Flask(__name__)
 
 
-@app.route("/")
+@app.route("/", methods=['GET'])
 def howdy_world():
-    return "<h1>Howdy World! 🤠</h1>"
+    greeting = request.args.get('greeting', 'Howdy')
 
-# How do we combine the two (eg with Pillow)?
+    return f"<h1>{greeting} World! 🤠</h1>"
